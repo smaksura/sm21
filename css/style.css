@@ -8,7 +8,6 @@
 }
 .row::after
 {
-  content: '';
 clear: both;
 display: black;
 
@@ -38,6 +37,16 @@ border: 0px solid black;
 .h-200{height: 200px;}
 .h-600{height: 600px;}
 
+.menu a{
+display: block;
+background-color: blue;
+float: left;
+border-radius: 5px;
+
+
+}
 .menu a:hover{
+    display: flex;
+    flex-direction: center;
 background-color: rgb(3, 3, 37);
 }

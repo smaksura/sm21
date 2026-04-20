@@ -11,4 +11,7 @@ console.log(evennumber);
 let pownumber = evennumber.map(number =>Math.pow (number,2));
 console.log(pownumber);
 
+const colors = ['red', 'green', 'blue'];
+const [ second, third,...color] = colors;
+console.log( second, third,...color);
 
